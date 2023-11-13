@@ -5,12 +5,10 @@ module.exports = {
     "./public/*.html",
     "./app/helpers/**/*.rb",
     "./app/javascript/**/*.js",
-    "./app/views/**/*",
+    "./app/views/**/*.{erb,haml,html,slim}",
   ],
   theme: {
-    extend: {
-
-    },
+    extend: {},
   },
   plugins: [
     require("@tailwindcss/forms"),
